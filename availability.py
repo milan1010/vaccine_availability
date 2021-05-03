@@ -118,7 +118,7 @@ if __name__ == "__main__":
     Ahmedabad = 154
     Ahmedabad_Corporation = 770
     dist_ids = [199]
-    min_age_limit = 18
+    min_age_limit = 45
 
     availability_data = get_availability(dist_ids, min_age_limit)
     send_email(availability_data, min_age_limit)
